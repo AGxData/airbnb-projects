@@ -1,0 +1,19 @@
+name: airbnb_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - polars
+  - duckdb
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - shapely
+  - geopandas
+  - hdbscan
+  - catboost
+  - shap
+  - yellowbrick
